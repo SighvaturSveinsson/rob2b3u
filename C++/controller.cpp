@@ -34,11 +34,11 @@ int main() {
           //...Spin the turntable motor right.
           TurnTableMotor.spin(vex::directionType::fwd, armSpeedPCT, vex::velocityUnits::pct);
       }
-      else if(Controller1.ButtonY.pressing()) { //If the X button is pressed...
+      else if(Controller1.ButtonY.pressing()) { //If the Y button is pressed...
           //...Spin the turntable motor left.
           TurnTableMotor.spin(vex::directionType::rev, armSpeedPCT, vex::velocityUnits::pct);
       }
-      else { //If the the up or down button is not pressed...
+      else { //If the the A or Y button is not pressed...
           //...Stop the turntable motor.
           TurnTableMotor.stop(vex::brakeType::brake);
       }
@@ -53,20 +53,20 @@ int main() {
           ArmMotor.spin(vex::directionType::rev, armSpeedPCT, vex::velocityUnits::pct);
       }
       else { //If the the up or down button is not pressed...
-          //...Stop the arm motor.
+          //...Hold the arm motor so that it does not drop.
           ArmMotor.stop(vex::brakeType::hold);
       }
 
       //Claw Control
-      if(Controller1.ButtonX.pressing()) { //If the A button is pressed...
+      if(Controller1.ButtonX.pressing()) { //If the B button is pressed...
           //...Spin the claw motor forward.
           ClawMotor.spin(vex::directionType::fwd, clawSpeedPCT, vex::velocityUnits::pct);
       }
-      else if(Controller1.ButtonB.pressing()) { //If the Y button is pressed...
+      else if(Controller1.ButtonB.pressing()) { //If the X button is pressed...
           //...Spin the claw motor backward.
           ClawMotor.spin(vex::directionType::rev, clawSpeedPCT, vex::velocityUnits::pct);
       }
-      else { //If the A or Y button are not pressed...        
+      else { //If the x or B button are not pressed...        
           //...Stop the claw motor.
           ClawMotor.stop(vex::brakeType::brake);        
       }
