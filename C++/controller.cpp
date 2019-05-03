@@ -8,7 +8,7 @@ Motor Port 11 LeftMotor V5 Smart Motor Left side motor false
 Motor Port 20 RightMotor V5 Smart Motor Right side motor true 
 Motor Port 18 ArmMotor V5 Smart Motor Arm motor false 
 Motor Port 16 ClawMotor V5 Smart Motor Claw motor false
-Motor Port 17 TurnTableMotor V5 Smart Motor Turntable motor;
+Motor Port 17 TurnTableMotor V5 Smart Motor Turntable motor false
 
 ----------------------------------------------------------------------------------------------------*/
 
