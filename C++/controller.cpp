@@ -4,10 +4,11 @@ This program instructs your robot to use remote control values to move the robot
 
 Robot Configuration: 
 [Smart Port] [Name] [Type] [Description] [Reversed] 
-Motor Port 1 LeftMotor V5 Smart Motor Left side motor false 
-Motor Port 10 RightMotor V5 Smart Motor Right side motor true 
-Motor Port 3 ArmMotor V5 Smart Motor Arm motor false 
-Motor Port 8 ClawMotor V5 Smart Motor Claw motor false
+Motor Port 11 LeftMotor V5 Smart Motor Left side motor false 
+Motor Port 20 RightMotor V5 Smart Motor Right side motor true 
+Motor Port 18 ArmMotor V5 Smart Motor Arm motor false 
+Motor Port 16 ClawMotor V5 Smart Motor Claw motor false
+Motor Port 17 TurnTableMotor V5 Smart Motor Turntable motor;
 
 ----------------------------------------------------------------------------------------------------*/
 
